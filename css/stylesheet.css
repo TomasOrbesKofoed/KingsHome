@@ -1,1 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body section {
+  background-color: rgb(182, 29, 29);
+  text-align: center;
+}
+body section p {
+  color: white;
+  margin-bottom: 0;
+}
+body nav {
+  background-color: rgb(229, 242, 230);
+}
+body main {
+  background-color: rgb(255, 253, 243);
+}
+body footer {
+  background-color: rgb(203, 211, 153);
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
