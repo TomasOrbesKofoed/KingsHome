@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  margin-bottom: 0;
   box-sizing: border-box;
 }
 
@@ -16,10 +17,30 @@ body nav {
   background-color: rgb(229, 242, 230);
 }
 body main {
-  background-color: rgb(255, 253, 243);
+  background-color: rgba(211, 211, 211, 0.143);
 }
 body footer {
   background-color: rgb(203, 211, 153);
+}
+
+.sect-prod-index {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carta {
+  width: 40%;
+  margin: 0px 15px;
+}
+
+.carta-posicion {
+  align-self: flex-end;
+}
+
+.carta-imagen {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

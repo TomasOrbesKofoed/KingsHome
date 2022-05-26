@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  margin-bottom: 0;
   box-sizing: border-box;
 }
 
@@ -24,4 +25,24 @@ body {
   footer {
     background-color: map-get($colores, color_6);
   }
+}
+
+.sect-prod-index {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carta {
+  width: 40%;
+  margin: 0px 15px;
+}
+
+.carta-posicion {
+  align-self: flex-end;
+}
+
+.carta-imagen {
+  max-width: 100%;
 }
