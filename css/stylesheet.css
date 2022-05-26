@@ -1,3 +1,23 @@
+.sect-prod-index {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carta {
+  width: 40%;
+  margin: 0px 15px;
+}
+
+.carta-posicion {
+  align-self: flex-end;
+}
+
+.carta-imagen {
+  max-width: 100%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -21,26 +41,6 @@ body main {
 }
 body footer {
   background-color: rgb(203, 211, 153);
-}
-
-.sect-prod-index {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.carta {
-  width: 40%;
-  margin: 0px 15px;
-}
-
-.carta-posicion {
-  align-self: flex-end;
-}
-
-.carta-imagen {
-  max-width: 100%;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

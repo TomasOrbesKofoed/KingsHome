@@ -1,0 +1,19 @@
+.sect-prod-index {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carta {
+  width: 40%;
+  margin: 0px 15px;
+}
+
+.carta-posicion {
+  align-self: flex-end;
+}
+
+.carta-imagen {
+  max-width: 100%;
+}
