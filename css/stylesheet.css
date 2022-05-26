@@ -18,6 +18,11 @@
   max-width: 100%;
 }
 
+.foot-iconos {
+  font-size: xx-large;
+  color: black;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -38,9 +43,30 @@ body nav {
 }
 body main {
   background-color: rgba(211, 211, 211, 0.143);
+  padding-top: 4px;
+}
+body main div {
+  padding-top: 5px;
+}
+body main div {
+  padding-top: 5px;
+}
+body main div {
+  padding-top: 4px;
 }
 body footer {
   background-color: rgb(203, 211, 153);
+  padding: 15px 0px;
+}
+body footer div {
+  padding: 5px 0px;
+}
+body footer div {
+  padding: 5px 0px;
+}
+
+.no-margin {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

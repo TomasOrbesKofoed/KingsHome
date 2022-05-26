@@ -22,8 +22,29 @@ body {
   }
   main {
     background-color: map-get($colores, color_4);
+    padding-top: 4px;
+    div {
+      padding-top: 5px;
+    }
+    div {
+      padding-top: 5px;
+    }
+    div {
+      padding-top: 4px;
+    }
   }
   footer {
     background-color: map-get($colores, color_6);
+    padding: 15px 0px;
+    div {
+      padding: 5px 0px;
+    }
+    div {
+      padding: 5px 0px;
+    }
   }
+}
+
+.no-margin {
+  margin-bottom: 0;
 }
